@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- EN-Revision: 331319 Maintainer: coldocean Status: ready -->
+
+<!-- Part titles used mostly in manual.xml itself -->
+<!ENTITY PHPManual         "PHP 手冊">
+<!ENTITY Seealso           "參見">
+<!ENTITY Date              "日期：">
+<!ENTITY GettingStarted    "入門">
+<!ENTITY InstallAndConfigure "安裝和設定">
+<!ENTITY Installation      "安裝">
+<!ENTITY LanguageReference "語言參考">
+<!ENTITY Features          "特色">
+<!ENTITY Security          "安全性">
+<!ENTITY FunctionReference "函式參考">
+<!ENTITY VariableandTypeRelatedExtensions         "變數與類別相關擴充功能">
+<!ENTITY TextProcessing                           "文字處理">
+<!ENTITY AffectingPHPsBehaviour                   "影響 PHP 行為的擴充功能">
+<!ENTITY SessionExtensions                        "Session 擴充功能">
+<!ENTITY OtherBasicExtensions                     "其它基本擴充功能">
+<!ENTITY DatabaseExtensions                       "資料庫擴充功能">
+<!ENTITY AbstractionLayers                        "資料庫抽象層">
+<!ENTITY VendorSpecificDatabaseExtensions         "針對不同資料庫擴充功能">
+<!ENTITY XMLManipulation                          "XML 操作">
+<!ENTITY WebServices                              "Web 服務">
+<!ENTITY CreditCardProcessing                     "信用卡處理">
+<!ENTITY MathematicalExtensions                   "數學擴充功能">
+<!ENTITY CryptographyExtensions                   "加密擴充功能">
+<!ENTITY HumanLanguageandCharacterEncodingSupport "自然語言與字元編碼支援">
+<!ENTITY FileSystemRelatedExtensions              "檔案系統相關擴充功能">
+<!ENTITY ProcessControlExtensions                 "程序控制擴充功能">
+<!ENTITY MailRelatedExtensions                    "郵件相關擴充功能">
+<!ENTITY AuthenticationServices                   "認證服務">
+<!ENTITY OtherServices                            "其它服務">
+<!ENTITY CompressionExtensions                    "壓縮擴充功能">
+<!ENTITY CalendarandEventRelatedExtensions        "日期和時間相關擴充功能">
+<!ENTITY NonTextMIMEOutput                        "非文本 MIME 輸出">
+<!ENTITY ImageProcessingandGeneration             "影像處理和生成">
+<!ENTITY AudioFormatsManipulation                 "聲音格式操作">
+<!ENTITY CommandLineSpecificExtensions            "命令列相關擴充功能">
+<!ENTITY WindowsOnlyExtensions                    "Windows 專用擴充功能">
+<!ENTITY ServerSpecificExtensions                 "伺服器擴充功能">
+<!ENTITY SearchEngineExtensions                   "搜索引擎擴充功能">
+<!ENTITY MiscExtensions                           "其它擴充功能">
+<!ENTITY UIExtensions                             "GUI Extensions">
+<!ENTITY Appendixes        "附錄">
+<!ENTITY PEAR              "PHP 延伸及應用程式儲存庫﹝PEAR﹞">
+<!ENTITY FAQ               "FAQ：常見問題">
+<!ENTITY FAQabbrev         "FAQ">
+<!ENTITY Internals         "PHP 和 Zend 引擎內部資料">
+<!ENTITY Internals2        "PHP 核心：駭客指南">
+<!ENTITY ZendAPI           "Zend API：深入 PHP 核心">
+<!ENTITY IndexListing      "索引">
+<!ENTITY FunctionListing                    "函式和方法列表">
+<!ENTITY FunctionListingDescription         "手册中所有函式和方法的列表">
+<!ENTITY ExampleListing                     "範例列表">
+<!ENTITY ExampleListingDescription          "手册中所有範例的列表">
+<!ENTITY ChangelogListingTitle              "更新日誌">
+<!ENTITY ChangelogListingDescription        "針對擴充功能的的類別／函式／方法有以下更新。">
+<!ENTITY ChangelogListingBundledDescription "對绑定的擴充功能函式有以下更新。">
+<!ENTITY CHMEdition        "CHM 版本">
+<!ENTITY ReservedConstants "預設常數">
+<!ENTITY MissingStuff      "補充">
+<!ENTITY AndSeveralOthers  "其他貢獻者">
+<!ENTITY Version           "版本">
+<!ENTITY Description       "說明">
+<!ENTITY Changeable        "可修改範圍">
+<!ENTITY ConfigureOptions  "設定選項">
+<!ENTITY Default           "預設">
+<!ENTITY Definition        "定義">
+<!ENTITY Functions         "函式">
+<!ENTITY Name              "名字">
+<!ENTITY Alias               "別名">
+<!ENTITY Type                "類型">
+<!ENTITY Changelog           "更新日誌">
+<!ENTITY Methods             "方法">
+<!ENTITY InheritedMethods    "繼承的方法">
+<!ENTITY InheritedProperties "繼承的屬性">
+<!ENTITY Properties          "屬性">
+<!ENTITY InheritedConstants "Inherited constants">
+<!ENTITY Constants           "常數">
+<!ENTITY NotAvailable        "不適用">
+
+<!-- These are used in reference/$extname/reference.xml and other
+supplemental files to mark section titles -->
+<!ENTITY reftitle.changelog    '<title xmlns="http://docbook.org/ns/docbook">&Changelog;</title>'>
+<!ENTITY reftitle.classes      '<title xmlns="http://docbook.org/ns/docbook">預設類別</title>'>
+<!ENTITY reftitle.classsynopsis '<title xmlns="http://docbook.org/ns/docbook">類別摘要</title>'>
+<!ENTITY reftitle.constants    '<title xmlns="http://docbook.org/ns/docbook">預設常數</title>'>
+<!ENTITY reftitle.constructor  '<title xmlns="http://docbook.org/ns/docbook">建構元(Constructor)</title>'>
+<!ENTITY reftitle.description  '<title xmlns="http://docbook.org/ns/docbook">說明</title>'>
+<!ENTITY reftitle.encoding     '<title xmlns="http://docbook.org/ns/docbook">編碼</title>'>
+<!ENTITY reftitle.examples     '<title xmlns="http://docbook.org/ns/docbook">範例</title>'>
+<!ENTITY reftitle.exceptions   '<title xmlns="http://docbook.org/ns/docbook">例外</title>'>
+<!ENTITY reftitle.errors       '<title xmlns="http://docbook.org/ns/docbook">錯誤/例外</title>'>
+<!ENTITY reftitle.faq          '<title xmlns="http://docbook.org/ns/docbook">&FAQ;</title>'>
+<!ENTITY reftitle.install      '<title xmlns="http://docbook.org/ns/docbook">安裝</title>'>
+<!ENTITY reftitle.intro        '<title xmlns="http://docbook.org/ns/docbook">簡介</title>'>
+<!ENTITY reftitle.indices      '<title xmlns="http://docbook.org/ns/docbook">目錄</title>'>
+<!ENTITY reftitle.interfacesynopsis '<title xmlns="http://docbook.org/ns/docbook">介面摘要</title>'>
+<!ENTITY reftitle.methods      '<title xmlns="http://docbook.org/ns/docbook">方法</title>'>
+<!ENTITY reftitle.mysqlnd      '<title xmlns="http://docbook.org/ns/docbook">僅 MySQL 原生驅動</title>'>
+<!ENTITY reftitle.notes        '<title xmlns="http://docbook.org/ns/docbook">註釋</title>'>
+<!ENTITY reftitle.parameters   '<title xmlns="http://docbook.org/ns/docbook">參數</title>'>
+<!ENTITY reftitle.options      '<title xmlns="http://docbook.org/ns/docbook">選項</title>'>
+<!ENTITY reftitle.properties   '<title xmlns="http://docbook.org/ns/docbook">屬性</title>'>
+<!ENTITY reftitle.required     '<title xmlns="http://docbook.org/ns/docbook">需求</title>'>
+<!ENTITY reftitle.resources    '<title xmlns="http://docbook.org/ns/docbook">資源類型</title>'>
+<!ENTITY reftitle.runtime      '<title xmlns="http://docbook.org/ns/docbook">執行時期設定</title>'>
+<!ENTITY reftitle.returnvalues '<title xmlns="http://docbook.org/ns/docbook">回傳值</title>'>
+<!ENTITY reftitle.seealso      '<title xmlns="http://docbook.org/ns/docbook">參見</title>'>
+<!ENTITY reftitle.setup        '<title xmlns="http://docbook.org/ns/docbook">安裝／設定</title>'>
+<!ENTITY reftitle.unicode      '<title xmlns="http://docbook.org/ns/docbook">Unicode</title>'>
+<!ENTITY reftitle.usage        '<title xmlns="http://docbook.org/ns/docbook">Usage</title>'>
