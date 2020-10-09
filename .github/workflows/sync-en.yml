@@ -1,0 +1,28 @@
+# This is a basic workflow to help you get started with Actions
+
+name: sync-en
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the main branch
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executooed as part of the job
+    steps:
+      # Runs a set of commands using the runners shell
+      - name: Run a syncing phpdoc-en script
+        run: |
+          svn checkout -q https://svn.php.net/repository/phpdoc/modules/doc-en
+          cd doc-en
+          git clone --depth=1 -q https://github.com/luckcan/phpdoc-tw.git tw
+          php doc-base/configure.php --enable-xml-details --disable-libxml-check --redirect-stderr-to-stdout --with-lang=tw
