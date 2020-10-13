@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- EN-Revision: 331319 Maintainer: coldocean Status: ready -->
-<!-- Reviewed: yes Maintainer: coldocean -->
+<!-- $Revision$ -->
+<!-- CREDITS: coldocean, luckcan -->
+
 <!--
   Entities for the categorized extension list, so it does not need
   to be translated, and thus it is not going to be outdated.
 -->
 
-<!ENTITY extcat.intro '<title xmlns="http://docbook.org/ns/docbook">擴充功能分類</title>
-<para xmlns="http://docbook.org/ns/docbook">本附錄以幾種方法將
-PHP 手冊中有記載的功能分為 150 類。</para>'>
+<!ENTITY extcat.intro '<title xmlns="http://docbook.org/ns/docbook">擴充功能列表／分類</title>
+<para xmlns="http://docbook.org/ns/docbook">本附錄以幾種準則分類
+PHP 手冊中記載超過 150 種以上的擴充功能。</para>'>
 
-<!ENTITY extcat.alphabetical '<title xmlns="http://docbook.org/ns/docbook">按字母順序</title>'>
+<!ENTITY extcat.alphabetical '<title xmlns="http://docbook.org/ns/docbook">按字母順序分類</title>'>
 
 <!-- ======================================================================= -->
 
-<!ENTITY extcat.purpose '<title xmlns="http://docbook.org/ns/docbook">按用途分</title>'>
+<!ENTITY extcat.purpose '<title xmlns="http://docbook.org/ns/docbook">按用途分類</title>'>
 
 <!ENTITY extcat.purpose.basic '<title xmlns="http://docbook.org/ns/docbook">基本 PHP 擴充功能</title>'>
 <!ENTITY extcat.purpose.basic.vartype '<title xmlns="http://docbook.org/ns/docbook">變數與類型相關擴充功能</title>'>
@@ -24,8 +26,8 @@ PHP 手冊中有記載的功能分為 150 類。</para>'>
 <!ENTITY extcat.purpose.basic.other '<title xmlns="http://docbook.org/ns/docbook">其它基本擴充功能</title>'>
 
 <!ENTITY extcat.purpose.database '<title xmlns="http://docbook.org/ns/docbook">資料庫擴充功能</title>'>
-<!ENTITY extcat.purpose.database.abstract '<title xmlns="http://docbook.org/ns/docbook">抽像層</title>'>
-<!ENTITY extcat.purpose.database.vendors '<title xmlns="http://docbook.org/ns/docbook">各供應商的資料庫擴充功能</title>'>
+<!ENTITY extcat.purpose.database.abstract '<title xmlns="http://docbook.org/ns/docbook">資料庫抽象層</title>'>
+<!ENTITY extcat.purpose.database.vendors '<title xmlns="http://docbook.org/ns/docbook">各供應商特有的資料庫擴充功能</title>'>
 
 <!ENTITY extcat.purpose.xml '<title xmlns="http://docbook.org/ns/docbook">XML 操作</title>'>
 
@@ -37,55 +39,54 @@ PHP 手冊中有記載的功能分為 150 類。</para>'>
 <!ENTITY extcat.purpose.mathcrypto.math '<title xmlns="http://docbook.org/ns/docbook">數學擴充功能</title>'>
 <!ENTITY extcat.purpose.mathcrypto.crypto '<title xmlns="http://docbook.org/ns/docbook">密碼擴充功能</title>'>
 
-<!ENTITY extcat.purpose.international '<title xmlns="http://docbook.org/ns/docbook">自然語言與字元編碼支援</title>'>
+<!ENTITY extcat.purpose.international '<title xmlns="http://docbook.org/ns/docbook">語言與字元編碼支援</title>'>
 
-<!ENTITY extcat.purpose.fileprocess '<title xmlns="http://docbook.org/ns/docbook">檔案系統和程序控制</title>'>
+<!ENTITY extcat.purpose.fileprocess '<title xmlns="http://docbook.org/ns/docbook">檔案系統和行程控制</title>'>
 <!ENTITY extcat.purpose.fileprocess.file '<title xmlns="http://docbook.org/ns/docbook">檔案系統相關擴充功能</title>'>
-<!ENTITY extcat.purpose.fileprocess.process '<title xmlns="http://docbook.org/ns/docbook">程序控制擴充功能</title>'>
+<!ENTITY extcat.purpose.fileprocess.process '<title xmlns="http://docbook.org/ns/docbook">行程控制擴充功能</title>'>
 
-<!ENTITY extcat.purpose.remote '<title xmlns="http://docbook.org/ns/docbook">遠端服務</title>'>
+<!ENTITY extcat.purpose.remote '<title xmlns="http://docbook.org/ns/docbook">存取服務</title>'>
 <!ENTITY extcat.purpose.remote.mail '<title xmlns="http://docbook.org/ns/docbook">郵件相關擴充功能</title>'>
 <!ENTITY extcat.purpose.remote.auth '<title xmlns="http://docbook.org/ns/docbook">認證服務</title>'>
 <!ENTITY extcat.purpose.remote.other '<title xmlns="http://docbook.org/ns/docbook">其它服務</title>'>
 
-<!ENTITY extcat.purpose.compression '<title xmlns="http://docbook.org/ns/docbook">壓縮擴充功能</title>'>
+<!ENTITY extcat.purpose.compression '<title xmlns="http://docbook.org/ns/docbook">壓縮與封存檔案擴充功能</title>'>
 
 <!ENTITY extcat.purpose.calendar '<title xmlns="http://docbook.org/ns/docbook">日期和時間相關擴充功能</title>'>
 
-<!ENTITY extcat.purpose.utilspec '<title xmlns="http://docbook.org/ns/docbook">應用領域類擴充功能</title>'>
-<!ENTITY extcat.purpose.utilspec.nontext '<title xmlns="http://docbook.org/ns/docbook">非文本 MIME 輸出</title>'>
-<!ENTITY extcat.purpose.utilspec.image '<title xmlns="http://docbook.org/ns/docbook">影像處理和生成</title>'>
+<!ENTITY extcat.purpose.utilspec '<title xmlns="http://docbook.org/ns/docbook">特定的使用範圍擴充功能</title>'>
+<!ENTITY extcat.purpose.utilspec.nontext '<title xmlns="http://docbook.org/ns/docbook">非文字格式的 MIME 輸出</title>'>
+<!ENTITY extcat.purpose.utilspec.image '<title xmlns="http://docbook.org/ns/docbook">影像處理和產生</title>'>
 <!ENTITY extcat.purpose.utilspec.audio '<title xmlns="http://docbook.org/ns/docbook">聲音格式操作</title>'>
-<!ENTITY extcat.purpose.utilspec.cmdline '<title xmlns="http://docbook.org/ns/docbook">命令列相關擴充功能</title>'>
+<!ENTITY extcat.purpose.utilspec.cmdline '<title xmlns="http://docbook.org/ns/docbook">命令列擴充功能</title>'>
 <!ENTITY extcat.purpose.utilspec.windows '<title xmlns="http://docbook.org/ns/docbook">Windows 專用擴充功能</title>'>
 <!ENTITY extcat.purpose.utilspec.server '<title xmlns="http://docbook.org/ns/docbook">伺服器擴充功能</title>'>
 
 <!-- ======================================================================= -->
 
-<!ENTITY extcat.membership '<title xmlns="http://docbook.org/ns/docbook">按所屬分類</title>'>
+<!ENTITY extcat.membership '<title xmlns="http://docbook.org/ns/docbook">按功能隸屬分類</title>'>
 
 <!ENTITY extcat.membership.core '<title xmlns="http://docbook.org/ns/docbook">核心擴充功能</title>
 <para xmlns="http://docbook.org/ns/docbook">以下並非真正的擴充功能，它們屬於
 PHP 核心的一部分，不能通過編譯選項將其排除。</para>'>
 
-<!ENTITY extcat.membership.bundled '<title xmlns="http://docbook.org/ns/docbook">包含的擴充功能</title>
-<para xmlns="http://docbook.org/ns/docbook">以下擴展庫包含在 PHP 發行套件中。</para>'>
+<!ENTITY extcat.membership.bundled '<title xmlns="http://docbook.org/ns/docbook">套組擴充功能</title>
+<para xmlns="http://docbook.org/ns/docbook">以下擴充功能包含在 PHP 發行套組中。</para>'>
 
 <!ENTITY extcat.membership.external '<title xmlns="http://docbook.org/ns/docbook">外部擴充功能</title>
-<para xmlns="http://docbook.org/ns/docbook">要編譯以下擴充功能，需要外部的函式庫。</para>'>
+<para xmlns="http://docbook.org/ns/docbook">以下擴充功能包含在 PHP 發行套組中，但是需要外部的函式庫編譯擴充功能。</para>'>
 
-<!ENTITY extcat.membership.pecl '<title xmlns="http://docbook.org/ns/docbook">PECL 外部擴充功能</title>
+<!ENTITY extcat.membership.pecl '<title xmlns="http://docbook.org/ns/docbook">PECL 擴充功能</title>
 <para xmlns="http://docbook.org/ns/docbook">以下擴充功能來自
-<link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.pecl;">PECL</link>。還有更多的 PECL 外部擴充功能，但在 PHP 手冊中尚未記載。</para>'>
+<link xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="&url.pecl;">PECL</link>。這些擴充功能可能需要外部的函式庫。還有更多的 PECL 外部擴充功能尚未記載在 PHP 手冊中。</para>'>
 
 <!-- ======================================================================= -->
 
-<!ENTITY extcat.state '<title xmlns="http://docbook.org/ns/docbook">按狀態分</title>
-<para xmlns="http://docbook.org/ns/docbook">以下列出的擴充功能不適用於實際運作環境中——不是太老（已廢棄），就是太新（試驗中）。</para>'>
+<!ENTITY extcat.state '<title xmlns="http://docbook.org/ns/docbook">按狀態分類</title>
+<para xmlns="http://docbook.org/ns/docbook">以下列出的擴充功能不適用於正式生產環境中——不是太舊（已棄用），就是太新（試驗中）。</para>'>
 
-<!ENTITY extcat.state.deprecated '<title xmlns="http://docbook.org/ns/docbook">已廢棄的擴充功能</title>
-<para xmlns="http://docbook.org/ns/docbook">以下擴充功能已被廢棄，通常有更好的擴充功能替代。</para>'>
+<!ENTITY extcat.state.deprecated '<title xmlns="http://docbook.org/ns/docbook">已棄用的擴充功能</title>
+<para xmlns="http://docbook.org/ns/docbook">以下擴充功能不推薦使用，通常有更好的擴充功能替代。</para>'>
 
 <!ENTITY extcat.state.experimental '<title xmlns="http://docbook.org/ns/docbook">試驗中的擴充功能</title>
-<para xmlns="http://docbook.org/ns/docbook">以下擴充功能的行為（包括其中函式名和任何其它文件中的說明）可能沒有任何通知就在未來發佈的 PHP 中改變。使用這些擴充功能需自擔風險。</para>'>
-
+<para xmlns="http://docbook.org/ns/docbook">以下擴充功能的功能行為模式（包括其函式名和任何其它文件中的說明）可能沒有任何通知就在未來發佈的 PHP 中改變。使用這些擴充功能需自擔風險。</para>'>
