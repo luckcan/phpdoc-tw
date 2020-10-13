@@ -21,7 +21,7 @@
 <!ENTITY OtherBasicExtensions                     "其它基本擴充功能">
 <!ENTITY DatabaseExtensions                       "資料庫擴充功能">
 <!ENTITY AbstractionLayers                        "資料庫抽象層">
-<!ENTITY VendorSpecificDatabaseExtensions         "各種特定的資料庫擴充功能">
+<!ENTITY VendorSpecificDatabaseExtensions         "各供應商特有的資料庫擴充功能">
 <!ENTITY XMLManipulation                          "XML 操作">
 <!ENTITY WebServices                              "Web 服務">
 <!ENTITY CreditCardProcessing                     "信用卡處理">
