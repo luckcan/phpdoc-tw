@@ -6,47 +6,43 @@
 <!ENTITY installation.enabled.disable '此擴充功能預設為啟用，編譯時可由下列選項禁用：'>
 
 <!-- Not used in EN anymore -->
-<!ENTITY changelog.randomseed '<row xmlns="http://docbook.org/ns/docbook"><entry>4.2.0</entry><entry>亂數產生器
-自動產生亂數種子。</entry></row>'>
+<!ENTITY changelog.randomseed '<row xmlns="http://docbook.org/ns/docbook"><entry>4.2.0</entry><entry>亂數產生器自動產生亂數種子。
+</entry></row>'>
 
 <!ENTITY warn.deprecated.feature-5-3-0.removed-6-0-0 '<warning
 xmlns="http://docbook.org/ns/docbook"><simpara>PHP 5.3.0 開始，已經
-<emphasis>棄用</emphasis> 此特色。強烈建議
-不要再使用此特色。</simpara></warning>'>
+<emphasis>棄用</emphasis> 此特色。強烈建議不要再使用此特色。
+</simpara></warning>'>
 
 <!ENTITY warn.deprecated.function-5-3-0.removed-6-0-0 '<warning
 xmlns="http://docbook.org/ns/docbook"><simpara>PHP 5.3.0 開始，已經
-<emphasis>棄用</emphasis> 此特色。強烈建議
-不要再使用此特色。</simpara></warning>'>
+<emphasis>棄用</emphasis> 此特色。強烈建議不要再使用此特色。
+</simpara></warning>'>
 
 <!-- Cautions -->
-<!ENTITY caution.cryptographically-insecure '<caution xmlns="http://docbook.org/ns/docbook"><para>本函式不會
-產生安全加密的值，勿使用於加密用途。
-若需要安全加密的值，斟酌使用<function>random_int</function>, <function>random_bytes</function>, 或是
+<!ENTITY caution.cryptographically-insecure '<caution xmlns="http://docbook.org/ns/docbook"><para>本函式不會產生安全加密的值，勿使用於加密用途。若需要安全加密的值，斟酌使用
+
+<function>random_int</function>, <function>random_bytes</function>, 或是
 <function>openssl_random_pseudo_bytes</function>替代。</para></caution>'>
 
 <!-- Notes -->
 
-<!ENTITY note.bin-safe '<note xmlns="http://docbook.org/ns/docbook"><simpara>此為二進位安全 (binary-safe)
-函数。</simpara></note>'>
+<!ENTITY note.bin-safe '<note xmlns="http://docbook.org/ns/docbook"><simpara>此為二進位安全 (binary-safe) 函数。
+</simpara></note>'>
 
-<!ENTITY note.locale-single-byte '<note xmlns="http://docbook.org/ns/docbook"><simpara>此函數是地區識別的，
-會根據目前設定的地區處理輸入，不過只會在單位元組字元集起作用。
-如果您需要使用多位元組字元集（大多數為非西歐語系），另請查看 
+<!ENTITY note.locale-single-byte '<note xmlns="http://docbook.org/ns/docbook"><simpara>此函數是地區識別的，會根據目前設定的地區處理輸入，不過只會在單位元組字元集起作用。如果您需要使用多位元組字元集（大多數為非西歐語系），另請查看
 <link linkend="book.mbstring">multibyte</link> 或 <link linkend="book.intl">intl</link> 擴充功能。</simpara></note>'>
 
-<!ENTITY note.clearstatcache '<note xmlns="http://docbook.org/ns/docbook"><simpara>本函式
-會快取結果。參見<function>clearstatcache</function>以獲得
-詳細說明。</simpara></note>'>
+<!ENTITY note.clearstatcache '<note xmlns="http://docbook.org/ns/docbook"><simpara>本函式會快取結果。參見
+<function>clearstatcache</function>
+可獲得詳細說明。</simpara></note>'>
 
-<!ENTITY note.context-support '<note xmlns="http://docbook.org/ns/docbook"><simpara>PHP 5.0.0 
-增加對上下文 (context) 的支援。取得<literal>上下文</literal>的說明，
-參見<xref linkend="book.stream"/>。</simpara></note>'>
+<!ENTITY note.context-support '<note xmlns="http://docbook.org/ns/docbook"><simpara>PHP 5.0.0 增加對上下文 (context) 的支援。取得
+<literal>上下文</literal>的說明，參見
+<xref linkend="book.stream"/>。</simpara></note>'>
 
-<!ENTITY note.exec-bg '<note xmlns="http://docbook.org/ns/docbook"><para>如果程式透過此函式
-啟動是為了保持在背景執行，
-程式的輸出必須導向到一個檔案或其它輸出串流。
-不這樣做的話， PHP 會被擱置直到程序執行結束。</para></note>'>
+<!ENTITY note.exec-bg '<note xmlns="http://docbook.org/ns/docbook"><para>如果程式透過此函式啟動是為了保持在背景執行，程式的輸出必須導向到一個檔案或其它輸出串流。不這樣做的話， PHP 會被擱置直到程序執行結束。
+</para></note>'>
 
 <!ENTITY note.func-callback '<note xmlns="http://docbook.org/ns/docbook"><simpara>
 除了函式名稱，還可以用一個包含物件參照和方法名稱的陣列作參數。</simpara></note>'>
